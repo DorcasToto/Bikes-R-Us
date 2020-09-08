@@ -22,7 +22,7 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark">
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-white">
     <img src="images/logo.jpg" giualt="image" class="first">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,11 +31,11 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ml-auto" id="f">
         <li class="nav-item active">
-          <a class="nav-link waves-effect waves-light p-3 "href="index.html">Home <span
+          <a class="nav-link waves-effect waves-light p-3 " href="index.html">Home <span
               class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link waves-effect waves-light p-3"  href="aboutUs.html">About Us</a>
+          <a class="nav-link waves-effect waves-light p-3" href="aboutUs.html">About Us</a>
         </li>
         <li class="nav-item">
           <a class="nav-link waves-effect waves-light p-3" href="services.html">Services</a>
@@ -48,9 +48,79 @@
         </li>
       </ul>
     </div>
-  </nav>
 
-  <h2>Home</h2>
+
+  </nav>
+  <!--Carousel Wrapper-->
+  <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
+    <!--Indicators-->
+    <ol class="carousel-indicators">
+      <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel-example-2" data-slide-to="1"></li>
+      <li data-target="#carousel-example-2" data-slide-to="2"></li>
+    </ol>
+    <!--/.Indicators-->
+    <!--Slides-->
+    <div class="carousel-inner" role="listbox">
+      <div class="carousel-item active">
+        <div class="view">
+          <img class="d-block w-100" src="images/pic2.jpg" style="height: 130vh; width: 100vh; object-fit: cover;"
+            alt="First slide">
+          <div class="mask rgba-black-light"></div>
+        </div>
+        <div class="carousel-caption carousel-caption-center">
+          <h3 class="h3-responsive">Light mask</h3>
+          <p>First text</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <!--Mask color-->
+        <div class="view">
+          <img class="d-block w-100" src="images/pic3.jpg" style="height: 130vh; width: 100vh; object-fit: cover;"
+            alt="Second slide">
+          <div class="mask rgba-black-strong"></div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <!--Mask color-->
+        <div class="view">
+          <img class="d-block w-100" src="images/pic4.jpg" style="height: 130vh; width: 100vh; object-fit: cover;"
+            alt="Third slide">
+          <div class="mask rgba-black-slight"></div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <!--Mask color-->
+        <div class="view">
+          <img class="d-block w-100" src="images/pic5.jpg" style="height: 130vh; width: 100vh; object-fit: cover;"
+            alt="Third slide">
+          <div class="mask rgba-black-slight"></div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <!--Mask color-->
+        <div class="view">
+          <img class="d-block w-100" src="images/pic6.jpg" style="height: 130vh; width: 100vh; object-fit: cover;"
+            alt="Third slide">
+          <div class="mask rgba-black-slight"></div>
+        </div>
+      </div>
+    </div>
+    <!--/.Slides-->
+    <!--Controls-->
+    <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+    <!--/.Controls-->
+  </div>
+  <!--/.Carousel Wrapper-->
+
+
 
 
 
