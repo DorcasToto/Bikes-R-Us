@@ -36,12 +36,12 @@ body{
   #p{
     margin-top:-5%;
   }
-  .card-body{
+  .employeesBody{
     background-color:teal;
     border: 2px solid white;
     
   }
-  .card-body p,h4{
+  .employeesBody p,h4{
     color: white;
   }
 
@@ -56,11 +56,14 @@ body{
   i{
     font-size: 40px;
   }
-  .fa-wrench{
-    font-size:20px;
-  }
   .buttonImage{
     margin-top: -70%;
     margin-left: -10%;
     font-size: 30px;
   }
+  .shilings{
+    font-size:50px;
+  }
+  .fa-check{
+    font-size: 20px;
+  } 
