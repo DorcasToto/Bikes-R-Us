@@ -19,6 +19,40 @@ body{
     color:#c81717
 
   }
-  .carousel{
-    height: 100%;
+  .carousel-caption{
+    top: 50%;
+  }
+  #paragraph{
+    font-size: 60px;
+    font-weight: 800;
+    border:3px solid white;
+    font-family:'Times New Roman', Times, serif;
+  
+    
+  }
+  #bookslot{
+   background-color: brown;
+  }
+  #p{
+    margin-top:-5%;
+  }
+  .card-body{
+    background-color:teal;
+    border: 2px solid white;
+    
+  }
+  .card-body p,h4{
+    color: white;
+  }
+
+  #cards{
+    margin-top: 10%;
+  }
+  h3{
+    color: brown;
+    font-size: 40px;
+    font-weight: 600;
+  }
+  i{
+    font-size: 40px;
   }
