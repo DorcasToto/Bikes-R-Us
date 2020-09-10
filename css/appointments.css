@@ -1,0 +1,175 @@
+@media only screen and (max-width: 1920px) and (min-width: 1200px) <style> .container {
+  width: 1100px;
+}
+@media (min-width: 1200px) <style> .container {
+  width: 1170px;
+}
+@media (min-width: 992px) <style> .container {
+  width: 970px;
+}
+@media (min-width: 768px) <style> .container {
+  width: 750px;
+}
+<style > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+<style > * {
+  padding: 0px;
+  margin: 0px;
+  outline: 0px;
+}
+<style > * {
+  box-sizing: border-box;
+}
+user agent stylesheet div {
+  display: block;
+}
+<style > body {
+  font-family: Lato, Amiri, Arimo, sans-serif;
+}
+<style > body {
+  font-weight: lighter;
+}
+<style > body {
+  font-size: 18px;
+  line-height: 1.66em;
+  color: rgb(120, 118, 124);
+  -webkit-font-smoothing: antialiased;
+}
+<style > body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857;
+  color: rgb(51, 51, 51);
+  background-color: rgb(255, 255, 255);
+}
+<style > :root {
+  --primary-color: #c2333c;
+  --secondary-color: #605856;
+  --tertiary-color: #ffffff;
+}
+<style > html {
+  visibility: visible;
+  opacity: 1;
+}
+html {
+  font-size: 100%;
+}
+html {
+  font-size: 10px;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+html {
+  font-family: sans-serif;
+  text-size-adjust: 100%;
+}
+/* html {
+  visibility: hidden;
+  opacity: 0;
+} */
+.btn-group-vertical > .btn-group::after,
+.btn-group-vertical > .btn-group::before,
+.btn-toolbar::after,
+.btn-toolbar::before,
+.clearfix::after,
+.clearfix::before,
+.container-fluid::after,
+.container-fluid::before,
+.container::after,
+.container::before,
+.dl-horizontal dd::after,
+.dl-horizontal dd::before,
+.form-horizontal .form-group::after,
+.form-horizontal .form-group::before,
+.modal-footer::after,
+.modal-footer::before,
+.modal-header::after,
+.modal-header::before,
+.nav::after,
+.nav::before,
+.navbar-collapse::after,
+.navbar-collapse::before,
+.navbar-header::after,
+.navbar-header::before,
+.navbar::after,
+.navbar::before,
+.pager::after,
+.pager::before,
+.panel-body::after,
+.panel-body::before,
+.row::after,
+.row::before {
+  display: table;
+  content: " ";
+}
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+.btn-group-vertical > .btn-group::after,
+.btn-toolbar::after,
+.clearfix::after,
+.container-fluid::after,
+.container::after,
+.dl-horizontal dd::after,
+.form-horizontal .form-group::after,
+.modal-footer::after,
+.modal-header::after,
+.nav::after,
+.navbar-collapse::after,
+.navbar-header::after,
+.navbar::after,
+.pager::after,
+.panel-body::after,
+.row::after {
+  clear: both;
+}
+<style > .btn-group-vertical > .btn-group::after,
+.btn-group-vertical > .btn-group::before,
+.btn-toolbar::after,
+.btn-toolbar::before,
+.clearfix::after,
+.clearfix::before,
+.container-fluid::after,
+.container-fluid::before,
+.container::after,
+.container::before,
+.dl-horizontal dd::after,
+.dl-horizontal dd::before,
+.form-horizontal .form-group::after,
+.form-horizontal .form-group::before,
+.modal-footer::after,
+.modal-footer::before,
+.modal-header::after,
+.modal-header::before,
+.nav::after,
+.nav::before,
+.navbar-collapse::after,
+.navbar-collapse::before,
+.navbar-header::after,
+.navbar-header::before,
+.navbar::after,
+.navbar::before,
+.pager::after,
+.pager::before,
+.panel-body::after,
+.panel-body::before,
+.row::after,
+.row::before {
+  display: table;
+  content: " ";
+}
+<style > ::after,
+::before {
+  box-sizing: border-box;
+}
+<style > ::selection {
+  color: rgb(255, 255, 255);
+}
+<style > ::selection {
+  color: rgb(255, 255, 255);
+}

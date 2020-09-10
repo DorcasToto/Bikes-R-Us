@@ -1,65 +1,329 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bikes R Us</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+    <!-- MD bootstrap Cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    />
+    <!-- Google Fonts -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+    />
+    <!-- Bootstrap core CSS -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Material Design Bootstrap -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/timepicker/1.3.5/jquery.timepicker.min.css">
+    <title>Bikes R Us</title>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bikes R Us</title>
-  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-  <link href="css/styles.css" rel="stylesheet" type="text/css">
-  <!-- MD bootstrap Cdn -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
-  <!-- Google Fonts -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
-  <!-- Bootstrap core CSS -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
-  <!-- Material Design Bootstrap -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
-  <title>Bikes R Us</title>
+    <link rel="stylesheet" href="css/appointments.css" />
+  </head>
 
-  <link rel="stylesheet" href="css/appointments.css">
-</head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <img src="images/logo.jpg" alt="image" class="first" />
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto" id="f">
+          <li class="nav-item active">
+            <a class="nav-link waves-effect waves-light p-3" href="index.html"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link waves-effect waves-light p-3" href="aboutUs.html"
+              >About Us</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link waves-effect waves-light p-3"
+              href="services.html"
+              >Services</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link waves-effect waves-light p-3"
+              href="contactUs.html"
+              >Contact</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link waves-effect waves-light p-3"
+              href="appointments.html"
+              >Book Appointment</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <section>
+      <div class="form">
+        <form>
+          <form
+            id="frmSelectService"
+            action=""
+            method="post"
+            class="default-form appointment-form"
+            novalidate="novalidate"
+          >
+            <input type="hidden" name="type" value="service" />
 
-<body>
+            <div class="row">
+              <div class="col-lg-10 col-lg-offset-1 col-xs-12">
+                <div class="row">
+                  <div class="col-md-6 col-sm-12 col-xs-12">
+                    <div class="form-group has-success">
+                      <label for=""
+                        ><span
+                          class="wc-editable"
+                          data-pk="ws_select_service"
+                          data-type="text"
+                          >Select Our Mechanics/Sales Rep</span
+                        ></label
+                      >
 
-  <nav class="navbar navbar-expand-lg navbar-dark">
-    <img src="images/logo.jpg" alt="image" class="first">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ml-auto" id="f">
-        <li class="nav-item active">
-          <a class="nav-link waves-effect waves-light  p-3" href="index.html">Home <span
-              class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link waves-effect waves-light  p-3" href="aboutUs.html">About Us</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link waves-effect waves-light  p-3" href="services.html">Services</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link waves-effect waves-light  p-3" href="contactUs.html">Contact</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link waves-effect waves-light  p-3" href="appointments.html">Book Appointment</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
+                      <select
+                        id="service_id"
+                        name="service_id"
+                        class="form-control required"
+                        data-msg-required="This field is required."
+                        aria-required="true"
+                        aria-invalid="false"
+                      >
+                        <option value="">-- Choose --</option>
+                        <optgroup label="Mechanics">
+                          <option value="2" data-type="service">
+                            Mechanic 1
+                          </option>
+                          <option value="3" data-type="service">
+                            Mechanic 2
+                          </option>
+                          <option value="6" data-type="service">
+                            Mechanic 3
+                          </option>
+                          <option value="7" data-type="service">
+                            Mechanic 4
+                          </option>
+                          <option value="5" data-type="service">
+                            Mechanic 5
+                          </option>
+                          <option value="1" data-type="service">
+                            Mechanic 6
+                          </option>
+                        </optgroup>
+                        <optgroup label="Sales Rep">
+                          <option value="1" data-type="package">
+                            Sales Rep 1
+                          </option>
+                          <option value="2" data-type="package">
+                            Sales Rep 2
+                          </option>
+                        </optgroup>
+                      </select>
+                    </div>
+                  </div>
 
+                  <div class="col-md-3 col-sm-6 col-xs-6">
+                    <div class="form-group has-success">
+                      <label for="initial_date"
+                        ><span
+                          class="wc-editable"
+                          data-pk="ws_date"
+                          data-type="text"
+                          >Date</span
+                        ></label
+                      >
+                      <div class="input-group datepicker">
+                        <input
+                          type="text"
+                          name="initial_date"
+                          class="form-control required"
+                          readonly="readonly"
+                          data-msg-required="This field is required."
+                          autocomplete="off"
+                          aria-required="true"
+                          aria-invalid="false"
+                          id="datepicker"
+                        />
+                        <span class="input-group-addon"
+                          ><i class="fa fa-calendar"></i
+                        ></span>
+                      </div>
+                    </div>
+                    <p class="add-more-checkbox" style="display: none">
+                      <label
+                        ><input
+                          type="checkbox"
+                          class="form-checkbox"
+                          name="add_more_date_times"
+                          id="add_more_date_times"
+                        />
+                        <span
+                          class="wc-editable"
+                          data-pk="ws_add_more_date_times"
+                          data-type="text"
+                          >Add more date/times</span
+                        ></label
+                      >
+                    </p>
+                  </div>
 
+                  <div class="col-md-3 col-sm-6 col-xs-6">
+                    <div class="form-group has-success">
+                      <label for="initial_time"
+                        ><span
+                          class="wc-editable"
+                          data-pk="ws_time"
+                          data-type="text"
+                          >Time</span
+                        ></label
+                      >
+                      <div class="input-group timepicker">
+                        <input
+                          type="text"
+                          name="initial_time"
+                          id="initial_time"
+                          class="form-control required"
+                          readonly="readonly"
+                          data-msg-required="This field is required."
+                          aria-required="true"
+                          aria-invalid="false"
+                          id="timepicker"
+                        />
+                        <span class="input-group-addon"
+                          ><i class="fas fa-clock"></i
+                        ></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
 
-  <!-- //Andale do your code here.
-   /NB you can remove the h3 tags they are just for demonstration purposes
-  INSTRUCTIONS:
-  AFTER CLONING THIS REPO,GO TO YOUR TERMINAL AND CREATE YOUR OWN BRANCH. happy coding!!! -->
+            <div class="row">
+              <div class="col-lg-10 col-lg-offset-1 col-xs-12">
+                <div class="appointment-info text-center" style="">
+                  <div class="cl-hr-line-solid"></div>
 
-  <!-- Footer -->
+                  <span id="service-info"
+                    ><span
+                      ><span
+                        class="wc-editable"
+                        data-pk="ws_duration"
+                        data-type="text"
+                        >Duration</span
+                      >: 1
+                      <span
+                        class="wc-editable"
+                        data-pk="ws_profile_hour"
+                        data-type="text"
+                        >hour</span
+                      ></span
+                    >
+                    <span
+                      ><span
+                        class="wc-editable"
+                        data-pk="ws_price"
+                        data-type="text"
+                        >Price</span
+                      >: Kshs. 1000.00</span
+                    ></span
+                  >
+                  &nbsp;
+                  <span role="button" tabindex="0" class="cl-link link-details"
+                    ><small class="glyphicon glyphicon-info-sign"></small>
+                    <span
+                      class="wc-editable"
+                      data-pk="ws_details"
+                      data-type="text"
+                      >Details</span
+                    ></span
+                  >
+                </div>
+
+                <div class="cl-hr-line-solid"></div>
+
+                <div class="clearfix text-center">
+                  <button type="submit" class="btn btn-primary cl-mb-mobile-xs">
+                    <span
+                      class="wc-editable"
+                      data-pk="ws_btn_book_now"
+                      data-type="action"
+                      >Book now</span
+                    >
+                  </button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </form>
+      </div>
+    </section>
+    <footer class="page-footer font-small blue-grey darken-1 mt-1" id="contact">
+      <div class="footer">
+        <div class="row">
+          <div class="col-md-12 py-5">
+            <div class="mb-5 flex-center">
+              <a class="fb-ic" href="">
+                <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+              </a>
+              <a class="tw-ic" href="">
+                <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+              </a>
+              <a class="gplus-ic">
+                <i class=""> </i>
+              </a>
+              <a class="li-ic" href="">
+                <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+              </a>
+              <a class="ins-ic" href="">
+                <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+              </a>
+              <a class="pin-ic" href="">
+                <i class="fab fa-pinterest fa-lg white-text fa-2x"> </i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="footer-copyright text-center py-3">© 2020 Copyright:
+        <a href="">Bike</a></br>
+      </div>
+  
+    </footer>
+
   <!-- MD bootstrap Cdn -->
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script type="text/javascript"
@@ -73,8 +337,10 @@
     integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script src="js/script.js"></script>
   <!-- jquery -->
-  <script src="js/jquery-3.3.1.min.js"></script>
-  <!-- bootstrap js -->
+  <script src="//cdnjs.cloudflare.com/ajax/libs/timepicker/1.3.5/jquery.timepicker.min.js"></script>
+<script src="./js/jquery-3.5.1.min.js"></script>
+    <script src="./js/jquery-ui.min.js"></script>
+    <script src="./js/jquery.maskedinput.min.js"></script>  <!-- bootstrap js -->
   <script src="js/bootstrap.bundle.min.js"></script>
   <!-- script js -->
   <script src="js/app.js"></script>
