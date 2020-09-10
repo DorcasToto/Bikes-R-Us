@@ -2,7 +2,7 @@ $("document").ready(function () {
   $("#datepicker").datepicker({
     firstDay: 1,
     showButtonPanel: true,
-    currentText: "Current Date",
+    currentText: "Today",
     closeText: "Close",
     constrainInput: true,
     defaultDate: 3,
