@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bikes R Us</title>
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <!-- <link href="css/bootstrap.css" rel="stylesheet" type="text/css" /> -->
     <link href="css/styles.css" rel="stylesheet" type="text/css" />
     <!-- MD bootstrap Cdn -->
     <link
@@ -163,12 +163,11 @@
       <div class="form">
         <form>
           <form
-            id="frmSelectService"
-            action=""
+            id="frmSelectService">
+          <!-- action=""
             method="post"
             class="default-form appointment-form"
-            novalidate="novalidate"
-          >
+            novalidate="novalidate" -->
             <input type="hidden" name="type" value="service" />
 
             <div class="row">
@@ -342,52 +341,15 @@
                 <div class="appointment-info text-center" style="display: none;">
                   <div class="cl-hr-line-solid"></div>
 
-                  <span id="service-info"
-                    ><span
-                      ><span
-                        class="wc-editable"
-                        data-pk="ws_duration"
-                        data-type="text"
-                        >Duration</span
-                      >: 1
-                      <span
-                        class="wc-editable"
-                        data-pk="ws_profile_hour"
-                        data-type="text"
-                        >hour</span
-                      ></span
-                    >
-                    <span
-                      ><span
-                        class="wc-editable"
-                        data-pk="ws_price"
-                        data-type="text"
-                        >Price</span
-                      >: Kshs. 1000.00</span
-                    ></span
-                  >
-                  &nbsp;
-                  <span role="button" tabindex="0" class="cl-link link-details"
-                    ><small class="glyphicon glyphicon-info-sign"></small>
-                    <span
-                      class="wc-editable"
-                      data-pk="ws_details"
-                      data-type="text"
-                      >Details</span
-                    ></span
-                  >
+                    <span class="wc-editable" data-type="text"></span>
+                  <!-- "Hi Andale, we have received your booking services. your mechanic has been notified. your total amount is 5000"  -->
                 </div>
 
                 <div class="cl-hr-line-solid"></div>
 
                 <div class="clearfix text-center">
-                  <button type="submit" class="btn btn-maroon cl-mb-mobile-xs submit-btn" onclick="Book()">
-                    <span
-                      class="wc-editable"
-                      data-pk="ws_btn_book_now"
-                      data-type="action"
-                      >Book now</span
-                    >
+                  <button type="submit" class="btn btn-maroon cl-mb-mobile-xs submit-btn">Book Now
+                   
                   </button>
                 </div>
               </div>
@@ -431,8 +393,8 @@
     </footer>
 
   <!-- MD bootstrap Cdn -->
-  <script src="./js/jquery.js"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/app.js"></script>
   <script type="text/javascript"
     src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
   <script type="text/javascript"
@@ -449,7 +411,6 @@
   <script src="./js/jquery.maskedinput.min.js"></script>  <!-- bootstrap js -->
   <script src="js/bootstrap.bundle.min.js"></script>
   <!-- script js -->
-  <script src="js/app.js"></script>
 
 </body>
 
