@@ -92,7 +92,58 @@
    /NB you can remove the h3 tags they are just for demonstration purposes
   INSTRUCTIONS:
   AFTER CLONING THIS REPO,GO TO YOUR TERMINAL AND CREATE YOUR OWN BRANCH. happy coding!!! -->
-
+  <div class="categories-area section-padding30">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <!-- Section Tittle -->
+                <div class="section-tittle mb-70">
+                    <span>Book An Appointment</span>
+                    <h2>Book Appointment</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="single-cat text-center mb-50">
+                    <div class="cat-icon">
+                        <span class="flaticon-development"></span>
+                    </div>
+                    <div class="cat-cap">
+                        <h5><a href="services.html">Diagnostics </a></h5>
+                        <p>When your bike is properly adjusted to your body and your riding style, you are more comfortable, more efficient, more powerful, and less likely to sustain injuries.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="single-cat text-center mb-50">
+                    <div class="cat-icon">
+                        <span class="flaticon-result"></span>
+                    </div>
+                    <div class="cat-cap">
+                        <h5><a href="services.html">Maintenance</a></h5>
+                        <p>Whether your bike has a flat tire or needs a tune-up, our full-service mobile bike shop offers maintenance and repair on every type of bike. We want you to enjoy your ride on a safe bike</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="single-cat text-center mb-50">
+                    <div class="cat-icon">
+                        <span class="flaticon-team"></span>
+                    </div>
+                    <div class="cat-cap">
+                        <h5><a href="services.html">Services</a></h5>
+                        <p>We offer a complete menu of a la carte repairs to address your individual needs. We’ll work with you to understand your needs and diagnose your issues. Estimates are always free!</p>
+                    </div>
+                </div>
+            </div>
+        
+            </div>
+            
+            
+        </div>
+    </div>
+</div>
     <section>
       <div class="form">
         <form>
@@ -108,7 +159,58 @@
             <div class="row">
               <div class="col-lg-10 col-lg-offset-1 col-xs-12">
                 <div class="row">
-                  <div class="col-md-6 col-sm-12 col-xs-12">
+                  <div class="col-md-4 col-sm-12 col-xs-12">
+                    <div class="form-group has-success">
+                      <label for=""
+                        ><span
+                          class="wc-editable"
+                          data-pk="ws_select_service"
+                          data-type="text"
+                          >Select Our Mechanics/Sales Rep</span
+                        ></label
+                      >
+
+                      <select
+                        id="service_id"
+                        name="service_id"
+                        class="form-control required"
+                        data-msg-required="This field is required."
+                        aria-required="true"
+                        aria-invalid="false"
+                      >
+                        <option value="">-- Choose --</option>
+                        <optgroup label="Mechanics">
+                          <option value="2" data-type="service">
+                            Mechanic 1
+                          </option>
+                          <option value="3" data-type="service">
+                            Mechanic 2
+                          </option>
+                          <option value="6" data-type="service">
+                            Mechanic 3
+                          </option>
+                          <option value="7" data-type="service">
+                            Mechanic 4
+                          </option>
+                          <option value="5" data-type="service">
+                            Mechanic 5
+                          </option>
+                          <option value="1" data-type="service">
+                            Mechanic 6
+                          </option>
+                        </optgroup>
+                        <optgroup label="Sales Rep">
+                          <option value="1" data-type="package">
+                            Sales Rep 1
+                          </option>
+                          <option value="2" data-type="package">
+                            Sales Rep 2
+                          </option>
+                        </optgroup>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-sm-12 col-xs-12">
                     <div class="form-group has-success">
                       <label for=""
                         ><span
@@ -160,7 +262,7 @@
                     </div>
                   </div>
 
-                  <div class="col-md-3 col-sm-6 col-xs-6">
+                  <div class="col-md-2 col-sm-6 col-xs-6">
                     <div class="form-group has-success">
                       <label for="initial_date"
                         ><span
@@ -206,7 +308,7 @@
                     </p>
                   </div>
 
-                  <div class="col-md-3 col-sm-6 col-xs-6">
+                  <div class="col-md-2 col-sm-6 col-xs-6">
                     <div class="form-group has-success">
                       <label for="initial_time"
                         ><span
@@ -240,7 +342,7 @@
 
             <div class="row">
               <div class="col-lg-10 col-lg-offset-1 col-xs-12">
-                <div class="appointment-info text-center" style="">
+                <div class="appointment-info text-center" style="display: none;">
                   <div class="cl-hr-line-solid"></div>
 
                   <span id="service-info"
@@ -282,7 +384,7 @@
                 <div class="cl-hr-line-solid"></div>
 
                 <div class="clearfix text-center">
-                  <button type="submit" class="btn btn-primary cl-mb-mobile-xs">
+                  <button type="submit" class="btn btn-maroon cl-mb-mobile-xs">
                     <span
                       class="wc-editable"
                       data-pk="ws_btn_book_now"
