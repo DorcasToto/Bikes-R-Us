@@ -1,6 +1,16 @@
 #jump{
-    background-image: url("../images/bike3.jpeg");
+    background-image: url("/images/rep1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    color: beige;
+}
+.opnhrs{
+    padding: 30px;
+background-color:beige;
+    float:right;
+    font-size: 30px;
+    justify-content: space-around;
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(190, 110, 110, 0.966);
 }
