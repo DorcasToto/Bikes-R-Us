@@ -176,7 +176,7 @@
                 <div class="row">
                   <div class="col-md-3 col-sm-12 col-xs-12">
                     <div class="form-group has-success">
-                      <label for=""
+                      <label for="mechanic"
                         ><span
                           class="wc-editable"
                           data-pk="ws_select_service"
@@ -195,13 +195,13 @@
                       >
                         <option value="">-- Choose --</option>
                         <optgroup label="Mechanics">
-                          <option value="2" data-type="service">
+                          <option value="Jim Collins" data-type="service">
                             Jim Collins
                           </option>
-                          <option value="3" data-type="service">
+                          <option value="Jane Auma" data-type="service">
                             Jane Auma
                           </option>
-                          <option value="6" data-type="service">
+                          <option value="Will Masika" data-type="service">
                             Will Masika
                           </option>
                         </optgroup>
@@ -210,7 +210,7 @@
                   </div>
                   <div class="col-md-2 col-sm-12 col-xs-12">
                     <div class="form-group has-success">
-                      <label for=""
+                      <label for="service"
                         ><span
                           class="wc-editable"
                           data-pk="ws_select_service"
@@ -220,7 +220,7 @@
                       >
 
                       <select
-                        id="service_id"
+                        id="service_id2"
                         name="service_id"
                         class="form-control required"
                         data-msg-required="This field is required."
@@ -229,22 +229,22 @@
                       >
                         <option value="">-- Choose --</option>
                         <optgroup label="Services">
-                          <option value="2" data-type="service">
+                          <option value="Fixing Bike" data-type="service">
                             Fixing Bike
                           </option>
-                          <option value="3" data-type="service">
+                          <option value="Repair Tires" data-type="service">
                             Repair Tires
                           </option>
-                          <option value="6" data-type="service">
+                          <option value="Washing Bike" data-type="service">
                             Washing Bike
                           </option>
-                          <option value="7" data-type="service">
+                          <option value="Tire Pressure" data-type="service">
                             Tire Pressure
                           </option>
-                          <option value="5" data-type="service">
+                          <option value="Remove Grease" data-type="service">
                             Remove Grease
                           </option>
-                          <option value="1" data-type="service">
+                          <option value="Custom Bike" data-type="service">
                             Custome Bike
                           </option>
                         </optgroup>
@@ -254,7 +254,7 @@
                   </div>
                   <div class="col-md-3 col-sm-12 col-xs-12">
                     <div class="form-group has-success">
-                      <label for=""
+                      <label for="location"
                         ><span
                           class="wc-editable"
                           data-pk="ws_select_service"
@@ -264,7 +264,7 @@
                       >
 
                       <select
-                        id="service_id"
+                        id="service_id3"
                         name="service_id"
                         class="form-control required"
                         data-msg-required="This field is required."
@@ -272,14 +272,17 @@
                         aria-invalid="false"
                       >
                         <option value="">-- Choose --</option>
-                        <optgroup label="Mechanics">
-                          <option value="2" data-type="service">
+                        <optgroup label="Location">
+                          <option value="inhouse" data-type="service">
                             Inhouse Repair
                           </option>
-                          <option value="3" data-type="service">
+                          <option value="your_location" data-type="service">
                             At Your Location
                           </option>
                         </optgroup>
+                        <span class="input-group-addon"
+                          ><i class="fas fa-map"></i
+                        ></span>
                       </select>
                     </div>
                   </div>
@@ -291,7 +294,7 @@
                           class="wc-editable"
                           data-pk="ws_date"
                           data-type="text"
-                          >Date</span
+                          >Date of Repair</span
                         ></label
                       >
                       <div class="input-group datepicker">
@@ -378,7 +381,7 @@
                 <div class="cl-hr-line-solid"></div>
 
                 <div class="clearfix text-center">
-                  <button type="submit" class="btn btn-maroon cl-mb-mobile-xs submit-btn">
+                  <button type="submit" class="btn btn-maroon cl-mb-mobile-xs submit-btn" onclick="Book()">
                     <span
                       class="wc-editable"
                       data-pk="ws_btn_book_now"
@@ -439,7 +442,6 @@
   <!-- js link -->
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"
     integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-  <script src="js/script.js"></script>
   <!-- jquery -->
   <script src="./js/jquery.datetimepicker.js"></script>
   <script src="./js/jquery-3.5.1.min.js"></script>
