@@ -19,3 +19,72 @@ body{
     color:#c81717
 
   }
+  .carousel-caption{
+    top: 50%;
+  }
+  #paragraph{
+    font-size: 60px;
+    font-weight: 800;
+    border:3px solid white;
+    font-family:'Times New Roman', Times, serif;
+  
+    
+  }
+  #bookslot{
+   background-color: brown;
+  }
+  #p{
+    margin-top:-5%;
+  }
+  .employeesBody{
+    background-color:teal;
+    border: 2px solid white;
+    
+  }
+  .employeesBody p,h4{
+    color: white;
+  }
+
+  #cards{
+    margin-top: 10%;
+  }
+  h3{
+    color: brown;
+    font-size: 40px;
+    font-weight: 600;
+  }
+  i{
+    font-size: 40px;
+  }
+  .buttonImage{
+    margin-top: -70%;
+    margin-left: -10%;
+    font-size: 30px;
+  }
+  .shilings{
+    font-size:50px;
+  }
+  .fa-check{
+    font-size: 20px;
+  }
+  .response{
+    height: 30vh;
+    background:url("../images/pic6.jpg");
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+  }
+  .responseP{
+    color:white;
+    align:center;
+    font-size: 20px;
+
+  }
+  .number{
+    color: black;
+    font-size: 40px;
+    font-weight: 500;
+  }
+  .fa-phone-alt{
+    font-size: 30px;
+  }
