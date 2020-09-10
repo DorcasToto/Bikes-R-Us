@@ -4,6 +4,7 @@
  * Ronald Kiprotich
  * Dorcas Cherono
  * Rowena Rono
+ * Onesmus Okali
 ## Description
 This is a website that seeks to offer a complete menu of a la carte repairs to address your individual needs. We’ll work with you to understand your needs and diagnose your issues. Estimates are always free!
 ## Setup/Installation Requirements
