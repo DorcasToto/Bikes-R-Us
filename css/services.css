@@ -1,5 +1,6 @@
-#services {
-    background-image: url(/images/bike6.jpeg);
+
+#services{
+    background-image: url(../images/bike6.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
