@@ -1,10 +1,13 @@
-$("#checkout").datepicker({
-    defaultDate: "+1w",
-    changeMonth: false,
-    numberOfMonths: 1,
-    prevText: '<i class="fa fa-chevron-left"></i>',
-    nextText: '<i class="fa fa-chevron-right"></i>',            
-    onClose: function( selectedDate ) {
-        $( "#checkin" ).datepicker( "option", "maxDate", selectedDate );
-    }
+$("document").ready(function () {
+  $("#datepicker").datepicker({
+    firstDay: 1,
+    showButtonPanel: true,
+    currentText: "Current Date",
+    closeText: "Close",
+    constrainInput: true,
+    defaultDate: 3,
+    changeMonth: true,
+    changeYear: true,
+    dateFormat: "dd/mm/yy",
+  });
 });
