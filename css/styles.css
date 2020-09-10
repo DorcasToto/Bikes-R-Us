@@ -30,26 +30,16 @@ body{
   
     
   }
-  #bookslot{
-   background-color: brown;
-  }
+
   #p{
     margin-top:-5%;
   }
-  .employeesBody{
-    background-color:teal;
-    border: 2px solid white;
-    
-  }
-  .employeesBody p,h4{
-    color: white;
-  }
-
+ 
   #cards{
     margin-top: 10%;
   }
   h3{
-    color: brown;
+    color: #c81717;
     font-size: 40px;
     font-weight: 600;
   }
@@ -81,10 +71,20 @@ body{
 
   }
   .number{
-    color: black;
+    color:white;
     font-size: 40px;
     font-weight: 500;
   }
   .fa-phone-alt{
     font-size: 30px;
   }
+  .responsePp,.name{
+    color: #c81717;
+  }
+  .num{
+    font-weight: 800;
+    color: white;
+  }
+ .price{
+   color:#00838f;
+ }
