@@ -1,3 +1,32 @@
+.slider-area2 {
+    background-image: url("../images/pic4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-overly2 {
+    position: relative;
+    z-index: 1;
+}
+
+.slider-area2 .hero-cap h2 {
+    font-family: "Roboto", sans-serif;
+    color: #fff;
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 1;
+}
+
+.text-center {
+    text-align: center!important;
+}
+
+.slider-height2 {
+    height: 450px;
+    background-size: cover;
+}
+
 .categories-area {
     background: #f7f7f7;
 }
@@ -107,3 +136,5 @@ button:hover{
     color: #f7f7f7;
     transition: all 1s ease-in-out;
 }
+
+#datepicker
