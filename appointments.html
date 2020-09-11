@@ -159,6 +159,11 @@
         </div>
     </div>
 </div>
+<div class="container">
+  <div class="row">
+    <div class="display lead text-center col-md-6 col-sm"></div>
+  </div>
+</div>
     <section>
       <div class="form">
         <form>
@@ -173,6 +178,10 @@
             <div class="row">
               <div class="col-lg-10 col-lg-offset-1 col-xs-12">
                 <div class="row">
+                    <div class="col-md-3 mb-3 your-location">
+                      <label for="name" >Your Name</label>
+                      <input type="text" class="form-control your_name" id="validationDefault03" placeholder="Name" required >
+                    </div>
                   <div class="col-md-3 col-sm-12 col-xs-12">
                     <div class="form-group has-success">
                       <label for="mechanic"
@@ -191,6 +200,7 @@
                         data-msg-required="This field is required."
                         aria-required="true"
                         aria-invalid="false"
+                        required
                       >
                         <option value="">-- Choose --</option>
                         <optgroup label="Mechanics">
@@ -225,6 +235,7 @@
                         data-msg-required="This field is required."
                         aria-required="true"
                         aria-invalid="false"
+                        required
                       >
                         <option value="">-- Choose --</option>
                         <optgroup label="Services">
@@ -269,13 +280,14 @@
                         data-msg-required="This field is required."
                         aria-required="true"
                         aria-invalid="false"
+                        required
                       >
                         <option value="">-- Choose --</option>
                         <optgroup label="Location">
                           <option value="inhouse" data-type="service">
                             Inhouse Repair
                           </option>
-                          <option value="your_location" data-type="service">
+                          <option value="your_location" class="my-loc" data-type="service">
                             At Your Location
                           </option>
                         </optgroup>
@@ -307,6 +319,7 @@
                           aria-required="true"
                           aria-invalid="false"
                           id="datepicker"
+                          required
                         />
                         <span class="input-group-addon"
                           ><i class="fa fa-calendar"></i
@@ -330,9 +343,12 @@
                       >
                     </p>
                   </div>
-
-                  
+                  <div class="col-md-4 mb-3 your-location">
+                    <label for="validationDefault03">Your Location</label>
+                    <input type="text" class="form-control" id="validationDefault03 my-loc" placeholder="Your Location">
+                  </div>           
                 </div>
+                
               </div>
             </div>
 
@@ -342,15 +358,11 @@
                   <div class="cl-hr-line-solid"></div>
 
                     <span class="wc-editable" data-type="text"></span>
-                  <!-- "Hi Andale, we have received your booking services. your mechanic has been notified. your total amount is 5000"  -->
+                  
                 </div>
-
-                <div class="cl-hr-line-solid"></div>
-
                 <div class="clearfix text-center">
                   <button type="submit" class="btn btn-maroon cl-mb-mobile-xs submit-btn">Book Now
-                   
-                  </button>
+                   </button>
                 </div>
               </div>
             </div>

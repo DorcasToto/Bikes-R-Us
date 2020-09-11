@@ -1,4 +1,4 @@
-$("document").ready(function () {
+$(document).ready(function () {
   $("#datepicker").datepicker({
     firstDay: 1,
     showButtonPanel: true,
@@ -12,6 +12,7 @@ $("document").ready(function () {
   });
 
 });
+
 
 $(document).ready(function(){
   function Book(mechanic, service, location){
@@ -52,10 +53,15 @@ $(document).ready(function(){
     var mechanicPrice = $("#service_id").val();
     var locationPrice = $("#service_id3").val();
     var servicePrice = $("#service_id2").val();
-  
+    var myName = $(".your_name").val();
+    //var currentDate = $("#newDate").val()
+    var myLocation = $("#my-loc").val();
   
    var book  = new Book(mechanicPrice, servicePrice, locationPrice);
-    console.log(book.getBookingPrice());
+
+    document.querySelector(".display").innerHTML = "Hello "  + myName + ", we have recieved your " + servicePrice + ". Your mechanic, " + mechanicPrice + " has been notified. Your total amount is Kshs." + book.getBookingPrice();
   });
 
+  
 });
+//<!-- "Hi Andale, we have received your booking services. your mechanic has been notified. your total amount is 5000"  -->
