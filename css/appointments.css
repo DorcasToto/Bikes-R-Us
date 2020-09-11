@@ -137,3 +137,9 @@ button:hover{
     transition: all 1s ease-in-out;
 }
 
+.display{
+    margin: auto;
+    padding: 0.5rem;
+    font-weight: bolder;
+    color: #c81717;
+}
