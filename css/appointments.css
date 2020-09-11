@@ -150,6 +150,10 @@ button:hover{
 }
 
 .close{
+    color: #c81717;
+    font-size: 20px;
+    right: 15px;
+    top: -12px;
     cursor: pointer;
 }
 
