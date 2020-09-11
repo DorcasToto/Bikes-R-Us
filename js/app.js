@@ -53,8 +53,9 @@ $(document).ready(function(){
     var mechanicPrice = $("#service_id").val();
     var locationPrice = $("#service_id3").val();
     var servicePrice = $("#service_id2").val();
-    var myName = $(".your_name").val()
+    var myName = $(".your_name").val();
     //var currentDate = $("#newDate").val()
+    var myLocation = $("#my-loc").val();
   
    var book  = new Book(mechanicPrice, servicePrice, locationPrice);
 
