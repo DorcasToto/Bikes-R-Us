@@ -143,3 +143,48 @@ button:hover{
     font-weight: bolder;
     color: #c81717;
 }
+
+/* .popup{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+} */
+
+.popup-wrap{
+    display: flex;
+    flex-direction: row;
+}
+
+/* .popup-left{
+    width: 300px;
+    height: 450px;
+    background-image: url("../img/motorbike.png");
+    background-size: cover;
+} */
+
+/* .popup-right{
+    width: 370px;
+    height: 450px;
+    background: white;
+    position: relative;
+} */
+
+.close{
+    /* position: absolute;
+    font-size: 20px;
+    right: 15px;
+    top: -12px; */
+    cursor: pointer;
+}
+
+/* .popup-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
